@@ -38,3 +38,7 @@
 .cursor-pointer {
     cursor: pointer;
 }
+
+.lop{
+    display: block;
+}
