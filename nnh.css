@@ -1,0 +1,211 @@
+/* style.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Dark background with light text */
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+/* Utility Classes */
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.bg-black {
+    background-color: #121212;
+}
+
+.bg-gray {
+    background-color: #181818;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+.m-1 {
+    margin: 10px;
+}
+
+.rounded {
+    border-radius: 8px;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+/* Main Container */
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Style */
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+/* Flex and Backgrounds */
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.bg-black {
+    background-color: #121212;
+}
+
+.bg-gray {
+    background-color: #181818;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+.m-1 {
+    margin: 10px;
+}
+
+.rounded {
+    border-radius: 8px;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+/* Main Container */
+.main {
+    display: flex;
+    height: 100vh;
+    color: #b3b3b3;
+}
+
+/* Left Sidebar */
+.left {
+    width: 250px;
+    background-color: #121212;
+    padding: 10px;
+}
+
+.home, .library-box {
+    background-color: #181818;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Logo and List Styling */
+.logo img {
+    width: 150px;
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    font-size: 14px;
+    color: #b3b3b3;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+ul li:hover {
+    color: #FFFFFF;
+}
+
+ul li img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* Library Section */
+.library-box .heading {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Footer Links */
+.footer-list div {
+    padding: 8px 0;
+}
+
+.footer-list a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 12px;
+    transition: color 0.2s ease;
+}
+
+.footer-list a:hover {
+    color: #FFFFFF;
+}
+
+/* Right Panel */
+.right {
+    flex: 1;
+    border-left: 1px solid #282828;
+    background-color: #181818;
+}
+
+/* Additional Link Styling */
+a.Cookies {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 12px;
+    display: inline-block;
+    padding: 8px 0;
+    transition: color 0.2s ease;
+}
+
+a.Cookies:hover {
+    color: #FFFFFF;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #121212;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #282828;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #404040;
+}
